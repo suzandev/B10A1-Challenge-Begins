@@ -14,14 +14,88 @@ header {
   padding: 30px;
 }
 
-.header > ul {
+.header_logo {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header > ul > li > button {
-  padding: 17px 24px;
+.header button {
+  padding: 14px 20px;
   border: 1px solid rgb(13, 19, 33);
+  outline: none;
   border-radius: 8px;
+  background: transparent;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.banner {
+  background-image: url("./assets/Hero-bg.png");
+  border: 2px dashed rgb(178, 179, 180);
+  padding: 26px 0;
+}
+
+.banner_head {
+  text-align: center;
+}
+
+.banner_head img {
+  width: 240.28px;
+  height: 240px;
+}
+
+.banner_head h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 43px;
+  font-weight: 600;
+  line-height: 68px;
+  margin: 32px 0;
+}
+.banner_head p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  padding: 0 145px;
+  margin-bottom: 32px;
+}
+
+.banner_head a {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.banner_head a button {
+  padding: 14px 20px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  outline: none;
 }
