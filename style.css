@@ -363,3 +363,70 @@ header {
 .section-title h2 {
   margin: 25px 0;
 }
+
+.support-wrapper {
+  background-color: rgba(3, 7, 18, 0.478);
+  background-image: url("./assets/handshake.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  padding: 64px 48px 64px 48px;
+  border-radius: 16px;
+}
+
+.support-wrapper .section-title h2,
+.support-wrapper .section-title p {
+  color: #fff;
+}
+
+#contact {
+  margin-top: 35px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-top: 48px;
+}
+.contact-form form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.contact-form input {
+  width: 548px;
+  border: none;
+  outline: none;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  padding: 19px 20px 19px 20px;
+
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.contact-form button {
+  border: none;
+  outline: none;
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
